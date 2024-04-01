@@ -1,18 +1,37 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+// inicio service
+import { CargarScriptsService } from './cargar-scripts.service';
+//fin servise
+
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { InicioComponent } from './inicio/pages/inicio/inicio.component';
+import { EncabezadoComponent } from './inicio/components/encabezado/encabezado.component';
+import { CarruselComponent } from './inicio/components/carrusel/carrusel.component';
+import { FooterComponent } from './inicio/components/footer/footer.component';
+import { PruebaComponent } from './inicio/components/prueba/prueba.component';
+import { MapaComponent } from './inicio/components/mapa/mapa.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InicioComponent,
+    EncabezadoComponent,
+    CarruselComponent,
+    FooterComponent,
+    PruebaComponent,
+    MapaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    CargarScriptsService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

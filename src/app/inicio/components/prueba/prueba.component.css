@@ -1,0 +1,19 @@
+body{
+    font-family: Poppins, sans-serif;
+}
+
+.item{
+    background: tomato;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    transition-property: clip-path;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay:linear;
+    clip-path: circle(50% at top left);
+}
+
+.item:hover{
+    clip-path: circle(150% at top left);
+}
