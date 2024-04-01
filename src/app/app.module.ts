@@ -14,6 +14,7 @@ import { CarruselComponent } from './inicio/components/carrusel/carrusel.compone
 import { FooterComponent } from './inicio/components/footer/footer.component';
 import { PruebaComponent } from './inicio/components/prueba/prueba.component';
 import { MapaComponent } from './inicio/components/mapa/mapa.component';
+import { CardComponent } from './inicio/components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { MapaComponent } from './inicio/components/mapa/mapa.component';
     CarruselComponent,
     FooterComponent,
     PruebaComponent,
-    MapaComponent
+    MapaComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
