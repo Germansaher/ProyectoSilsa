@@ -1,22 +1,50 @@
 section {
-  max-width: 800px;
+  max-width: 570px;
   margin: 0px auto;
-  padding: 20px;
+  padding: 30px;
   background-color: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-left: 120px; /* Establece el margen izquierdo a 0 */
+  margin-left: 100px; /* Establece el margen izquierdo a 0 */
   margin-right: auto; /* Deja el margen derecho automático */
 }
+app-acordion-mvv{
+  padding:0px;
+  width: calc(50% - 40px); /* Calcula el ancho para ocupar la mitad del contenedor con un pequeño espacio entre elementos */
+  float: right; /* Coloca el acordeón en el lado derecho */
+}
+app-card{
+  padding:0px;
+  width: calc(42% - .01px); /* Calcula el ancho para ocupar la mitad del contenedor con un pequeño espacio entre elementos */
+  float: right; /* Coloca el acordeón en el lado derecho */
+}
+app-botonteam{
+  padding:0px;
+  width: calc(42% - .01px); /* Calcula el ancho para ocupar la mitad del contenedor con un pequeño espacio entre elementos */
+  float: right; /* Coloca el acordeón en el lado derecho */
+}
+
+li p.inside-li {
+  color: blue;
+}
+
 
 h2{
   font-weight: bold;
   font-family:Geovano Sans ;
   color:#f4f6f8 ;
 }
+
 p{
   font-size: 20px;
   font-family: Montserrat, sans-serif;
   color: rgb(243, 239, 239);
+}
+label{
+  margin-left: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Montserrat, sans-serif;
+  color: #153763;
 }
 
 @media (max-width: 768px) {
@@ -52,10 +80,13 @@ button:hover  {
 button:active{
   transform: scale(0.9);
 }
+li{
+  background-color: #f4f6f8;
+}
+
 body{
   min-height: 100vh;
-  background: linear-gradient(rgba(5,7,12,1),rgba(5,7,12,1));
-  background-image: url(../../../../assets/img/FondoPrin.png);
+  background:#153763;
   background-repeat: no-repeat;
   background-position: center center;
   height: 1080;

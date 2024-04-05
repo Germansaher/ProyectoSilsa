@@ -15,6 +15,12 @@ import { FooterComponent } from './inicio/components/footer/footer.component';
 import { PruebaComponent } from './inicio/components/prueba/prueba.component';
 import { MapaComponent } from './inicio/components/mapa/mapa.component';
 import { CardComponent } from './inicio/components/card/card.component';
+import { AcordionMVVComponent } from './inicio/components/acordion-mvv/acordion-mvv.component';
+import { BotonteamComponent } from './inicio/components/botonteam/botonteam.component';
+import { CarruselCardComponent } from './inicio/components/carrusel-card/carrusel-card.component';
+import { ConocenosComponent } from './inicio/pages/conocenos/conocenos.component';
+import { LoginComponent } from './inicio/pages/login/login.component';
+import { LogComponent } from './inicio/components/log/log.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +31,13 @@ import { CardComponent } from './inicio/components/card/card.component';
     FooterComponent,
     PruebaComponent,
     MapaComponent,
-    CardComponent
+    CardComponent,
+    AcordionMVVComponent,
+    BotonteamComponent,
+    CarruselCardComponent,
+    ConocenosComponent,
+    LoginComponent,
+    LogComponent
   ],
   imports: [
     BrowserModule,

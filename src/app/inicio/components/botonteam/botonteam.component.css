@@ -1,0 +1,28 @@
+button{
+    border: 0;
+    background-color: #063755;
+    border-radius: 8px;
+    color :#fff;
+    display: flex;
+    font-family: Montserrat Classic;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer; 
+    transition: .3s; 
+    }
+    button span{
+      background-color: none
+    ;
+      padding: 16px,28px;
+      border-radius: 6px;
+      transition: .3s;
+    }
+    button:hover  {
+      background:#A50D36;
+      color :#fff;
+      border:#153763 ;
+    }
+    button:active{
+      transform: scale(0.9);
+    }
