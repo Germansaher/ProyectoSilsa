@@ -1,8 +1,46 @@
-footer{
+.social-links {
+    margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+}
+
+.social-links i {
+    margin-right: 20px; /* Ajusta el margen derecho para separar los iconos horizontalmente */
+    font-size: 24px; /* Cambia el tamaño de los iconos según sea necesario */
+}
+
+
+
+footer {
     background-color: #000000;
     color: #fff;
-    padding: 10px;
+    padding: 20px 0;
     text-align: center;
-    bottom: 0;
-    width:100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+.social-links a:hover {
+    color: #3b5998; /* Cambia el color al azul de Facebook */
+}
+
+.fa {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.copyright {
+    margin-top: 10px;
 }

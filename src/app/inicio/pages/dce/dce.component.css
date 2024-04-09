@@ -1,0 +1,23 @@
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    padding: 0;
+    max-width: 800px; /* Establece un ancho máximo para el contenido */
+}
+
+/* Estilos para el encabezado */
+header {
+    /* Utilizamos un gradiente como background-image */
+    background-image: linear-gradient(315deg,#768B9E 0%,#2a5470 74%);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+}
+
