@@ -1,0 +1,22 @@
+<div class="flex justify-center mt-10">
+  <div class="bg-white p-5 rounded-md w-2/6">
+    <form [formGroup]="formLogin">
+      <h2>Iniciar sesion</h2>
+      <div class="flex flex-col mb-2">
+        <label for="email">Correo electronico</label>
+        <input type="email" class="rounded-md" formControlName="email">
+      </div>
+      <div class="flex flex-col mb-2">
+        <label for="email">Contraseña</label>
+        <input type="password" class="rounded-md" formControlName="password">
+      </div>
+      <div class="flex items-center gap-2">
+        <button class="bg-blue-500 rounded-md border-none p-2 text-white hover:bg-blue-600" (click)="loginAdmin()">Ingresar</button>
+        <button class="bg-green-500 rounded-md border-none p-2 text-white hover:bg-green-600" type="submit">Crear cuenta</button>
+      </div>
+      <div>
+        <a href="">Recuperar contraseña</a>
+      </div>
+    </form>
+  </div>
+</div>
